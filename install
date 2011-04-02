@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# init update-bundles
+`git submodule update --init --rebase vim/bin/update-bundles`
+
+# Create symlink for vim-update-bundles
+`ln -s $PWD/vim-update-bundles.conf ~/.vim-update-bundles.conf`
+`ln -s $PWD/vim/bin/update-bundles/vim-update-bundles ~/vim-update-bundles`
+
+# Create symlink for vim config
+`ln -s $PWD/vim ~/.vim`
+`ln -s $PWD/vimrc ~/.vimrc`
+`ln -s $PWD/gvimrc ~/.gvimrc`
+
+# update bundles
+bash $PWD/update
+
