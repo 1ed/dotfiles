@@ -230,42 +230,42 @@ endif
 " to enable a plugin.
 "
 " Generally Useful:
-" Bundle: git://github.com/scrooloose/nerdtree.git
+" #Bundle: git://github.com/scrooloose/nerdtree.git
 "autocmd VimEnter * NERDTree
 "
 " needs: sudo apt-get install ack-grep
-" Bundle: git://github.com/mileszs/ack.vim.git
-" Bundle: git://github.com/vim-scripts/NERD_Tree-and-ack.git
-let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+" #Bundle: git://github.com/mileszs/ack.vim.git
+" #Bundle: git://github.com/vim-scripts/NERD_Tree-and-ack.git
+" let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
-" Bundle: git://github.com/vim-scripts/bufexplorer.zip.git
+" # Bundle: git://github.com/vim-scripts/bufexplorer.zip.git
 " # Bundle: git://github.com/bronson/vim-closebuffer.git
 " # Bundle: git://github.com/vim-scripts/IndexedSearch.git
-" Bundle: git://github.com/bronson/vim-trailing-whitespace.git
+" # Bundle: git://github.com/bronson/vim-trailing-whitespace.git
 " # Bundle: git://github.com/Raimondi/YAIFA.git
 " # Bundle: git://github.com/tpope/vim-vividchalk.git
 "
-" BUNDLE: git://git.wincent.com/command-t.git
+" # BUNDLE: git://git.wincent.com/command-t.git
 " #   If rvm is installed, make sure we compile command-t with the system ruby
 " #   BUNDLE-COMMAND: if which rvm >/dev/null 2>&1; then rvm system exec rake make; else rake make; fi
 
-" Programming:
-" Bundle: git://github.com/scrooloose/nerdcommenter.git
-" Bundle: git://github.com/tpope/vim-surround.git
+" # Programming:
+" # Bundle: git://github.com/scrooloose/nerdcommenter.git
+" # Bundle: git://github.com/tpope/vim-surround.git
 " # Bundle: gitick-n-drag to highlight what you want to select. To paste into nearly any other application just click the center mouse button.
-" Bundle: git://github.com/vim-scripts/taglist.vim
-" Bundle: git://github.com/msanders/snipmate.vim.git
-" Bundle: git://github.com/scrooloose/snipmate-snippets.git
+" # Bundle: git://github.com/vim-scripts/taglist.vim
+" # Bundle: git://github.com/msanders/snipmate.vim.git
+" # Bundle: git://github.com/scrooloose/snipmate-snippets.git
 " # Bundle: git://github.com/vim-scripts/Align.git
 " # Bundle: git://github.com/tpope/vim-endwise.git
 " # Bundle: git://github.com/tpope/vim-repeat.git
-" Bundle: git://github.com/tpope/vim-fugitive.git
+" # Bundle: git://github.com/tpope/vim-fugitive.git
 " # Bundle: git://github.com/ervandew/supertab.git
-" Bundle: git://github.com/vim-scripts/jQuery.git
-"au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
+" # Bundle: git://github.com/vim-scripts/jQuery.git
+" au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 "
-" Bundle: git://github.com/tpope/vim-git.git
-" Bundle: git://github.com/tpope/vim-markdown.git
+" # Bundle: git://github.com/tpope/vim-git.git
+" # Bundle: git://github.com/tpope/vim-markdown.git
 " # Bundle: git://github.com/timcharper/textile.vim.git
 " # Bundle: git://github.com/kchmck/vim-coffee-script.git
 
@@ -280,25 +280,25 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 " # Bundle: git://github.com/astashov/vim-ruby-debugger.git
 
 " Ruby and 'set nocompatible' required
-" Bundle: git://github.com/tpope/vim-pastie.git
+" # Bundle: git://github.com/tpope/vim-pastie.git
 
 " Sparkup
-" Bundle: git://github.com/bingaman/vim-sparkup.git
+" # Bundle: git://github.com/bingaman/vim-sparkup.git
 
 " requires: sudo easy_install vim_bridge
-" Bundle: git://github.com/nvie/vim-rst-tables.git
+" # Bundle: git://github.com/nvie/vim-rst-tables.git
 "
-" Bundle: git://github.com/vim-scripts/PIV.git
-" Bundle: git://github.com/vim-scripts/HTML-AutoCloseTag.git
+" # Bundle: git://github.com/vim-scripts/PIV.git
+" # Bundle: git://github.com/vim-scripts/HTML-AutoCloseTag.git
 " # Bundle: git://github.com/vim-scripts/AutoClose.git
 " # Bundle: git://github.com/vim-scripts/ClosePairs.git
 "
-" Bundle: git://github.com/vim-scripts/HTML5-Syntax-File.git
-" Bundle: git://github.com/vim-scripts/loremipsum.git
+" # Bundle: git://github.com/vim-scripts/HTML5-Syntax-File.git
+" # Bundle: git://github.com/vim-scripts/loremipsum.git
 " # Bundle: git://github.com/vim-scripts/NERD_tree-Project.git
 " # Bundle: git://github.com/vim-scripts/project.tar.gz.git
 " # Bundle: git://github.com/soh335/vim-symfony.git
 "
-" Bundle: git://github.com/jpo/vim-railscasts-theme.git
-" Bundle: git://github.com/gmarik/sudo-write.git
+" # Bundle: git://github.com/jpo/vim-railscasts-theme.git
+" # Bundle: git://github.com/gmarik/sudo-write.git
 " # Bundle: git://github.com/godlygeek/csapprox.git
