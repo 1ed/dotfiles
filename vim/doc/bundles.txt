@@ -1,9 +1,0 @@
-*bundles* *bundles.txt*            Installed Bundles
-
-
-Last updated by vim-update-bundles on 2011-04-02 11:11:16 +0200.
-
-  PLUGIN                           VERSION                RELEASE DATE
-------------------------------------------------------------------------
-  |pathogen|                       v1.3                   2011-03-10
-

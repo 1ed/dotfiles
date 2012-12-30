@@ -1,7 +1,0 @@
-INSTALL
-=======
-
-    sudo apt-get install git-core ruby
-    git clone https://github.com/1ed/dotfiles.git ~/
-    cd ~/dotfiles
-    bash install

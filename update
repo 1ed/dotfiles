@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# update update-bundles
-`git submodule update --rebase vim/bin/update-bundles`
-
-# Run vim-update-bundles
-ruby ~/vim-update-bundles
