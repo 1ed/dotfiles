@@ -6,22 +6,27 @@ if [ -z "$DOTFILES_DIR" ]; then
 fi
 
 link() {
-  rm -rf $2
-  ln -nfs $1 $2
+  rm -rf $HOME/$2
+  ln -nfs $DOTFILES_DIR/$1 $HOME/$2
 }
 
 # install prezto & zsh config
-link $DOTFILES_DIR/zsh/zprezto $HOME/.zprezto
-link $DOTFILES_DIR/zsh/zlogin $HOME/.zlogin
-link $DOTFILES_DIR/zsh/zlogout $HOME/.zlogout
-link $DOTFILES_DIR/zsh/zpreztorc $HOME/.zpreztorc
-link $DOTFILES_DIR/zsh/zprofile $HOME/.zprofile
-link $DOTFILES_DIR/zsh/zshenv $HOME/.zshenv
-link $DOTFILES_DIR/zsh/zshrc $HOME/.zshrc
+link zsh/zprezto .zprezto
+link zsh/zlogin .zlogin
+link zsh/zlogout .zlogout
+link zsh/zpreztorc .zpreztorc
+link zsh/zprofile .zprofile
+link zsh/zshenv .zshenv
+link zsh/zshrc .zshrc
+
+# install rc files
+link rc/gemrc .gemrc
+link rc/phpenvrc .phpenvrc
+link rc/rbenvrc .rbenvrc
 
 # install vim config
-link $DOTFILES_DIR/vim $HOME/.vim
-link $DOTFILES_DIR/vim/vimrc $HOME/.vimrc
-link $DOTFILES_DIR/vim/gvimrc $HOME/.gvimrc
+link vim .vim
+link vim/vimrc .vimrc
+link vim/gvimrc .gvimrc
 bundle exec vim-update-bundles -n
 
