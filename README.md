@@ -4,5 +4,5 @@ Note that I use Ubuntu.
 
 ## Install
 
-    git clone http://github.com/1ed/dotfiles
+    git clone --recursive http://github.com/1ed/dotfiles
 
