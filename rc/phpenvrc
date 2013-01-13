@@ -3,6 +3,6 @@
 # has not been inited yet.
 #
 if ! echo $PATH | grep -q phpenv; then
-  export PATH="/home/egabor/.phpenv/bin:/home/egabor/.php-build/bin:$PATH"
+  export PATH="/home/egabor/.phpenv/bin:$PATH"
   eval "$(phpenv init -)"
 fi
