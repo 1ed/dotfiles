@@ -77,7 +77,7 @@ set formatprg=par\ -w72rjeq     " User par for formattiong (sudo apt-get par)
 
 " persistent undo (from 7.3)
 set undofile
-set undodir=~/.vimundo
+set undodir=~/.vim/undo
 
 "set wrap
 "set textwidth=79
